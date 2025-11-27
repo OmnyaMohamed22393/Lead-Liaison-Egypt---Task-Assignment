@@ -20,7 +20,7 @@ module.exports = (req, res) => {
     const off = Math.max(0, parseInt(offset, 10) || 0);
     const lim = Math.max(1, Math.min(100, parseInt(limit, 10) || 20));
 
-    const all = generateMockItems(131);
+    const all = generateMockItems(181);
     const query = String(q || '').trim().toLowerCase();
 
     const filtered = query
