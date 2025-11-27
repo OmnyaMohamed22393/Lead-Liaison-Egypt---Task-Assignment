@@ -1,7 +1,7 @@
 // Simple Vercel Serverless function that returns paginated mock posts.
 // Supports query params: offset (number), limit (number), q (search string)
 
-function generateMockItems(count = 131) {
+function generateMockItems(count = 181) {
   const items = [];
   for (let i = 1; i <= count; i++) {
     items.push({
